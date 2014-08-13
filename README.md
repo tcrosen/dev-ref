@@ -13,6 +13,12 @@ Dry run: `git clean -nd`
 
 Also remove ignored files: `git clean -fdx`
 
+###Undo commits that have not been pushed yet
+
+`git reset HEAD~1`
+
+Also undo current changes: `git reset --hard HEAD~1`
+
 #Angular
 
 - [ngBoilerPlate](https://github.com/ngbp/ngbp) - Opinionated architecture for scalable Angular apps
