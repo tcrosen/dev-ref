@@ -10,6 +10,7 @@ Reference for development tasks/resources
 `git clean -fd`
 
 Dry run: `git clean -nd`
+
 Also remove ignored files: `git clean -fdx`
 
 
