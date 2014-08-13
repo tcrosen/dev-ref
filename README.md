@@ -16,7 +16,7 @@ Also remove ignored files: `git clean -fdx`
 #Angular
 
 - [ngBoilerPlate](https://github.com/ngbp/ngbp) - Opinionated architecture for scalable Angular apps
-- [Best Practices for App Structure *(Official)* ](https://docs.google.com/document/d/1XXMvReO8-Awi1EZXAXS4PzDzdNvV6pGcuaF4Q9821Es/pub)
-- [Code style guide *Official*](https://google-styleguide.googlecode.com/svn/trunk/angularjs-google-style.html)
+- [Best Practices for App Structure](https://docs.google.com/document/d/1XXMvReO8-Awi1EZXAXS4PzDzdNvV6pGcuaF4Q9821Es/pub) *(Official)*
+- [Code style guide](https://google-styleguide.googlecode.com/svn/trunk/angularjs-google-style.html)  *(Official)*
 
 
