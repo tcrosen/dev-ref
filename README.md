@@ -19,6 +19,13 @@ Also remove ignored files: `git clean -fdx`
 
 Also undo current changes: `git reset --hard HEAD~1`
 
+###Checkout a remote branch for an existing local repository
+
+```
+git fetch
+git checkout test
+```
+
 #Angular
 
 - [ngBoilerPlate](https://github.com/ngbp/ngbp) - Opinionated architecture for scalable Angular apps
