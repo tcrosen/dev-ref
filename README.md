@@ -23,7 +23,7 @@ Also undo current changes: `git reset --hard HEAD~1`
 
 ```
 git fetch
-git checkout test
+git checkout <branch name>
 ```
 
 #Angular
