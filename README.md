@@ -26,6 +26,14 @@ git fetch
 git checkout <branch name>
 ```
 
+#Node
+
+###List npm package versions without dependencies
+
+```
+npm list [-g] --depth=0
+```
+
 #Angular
 
 - [ngBoilerPlate](https://github.com/ngbp/ngbp) - Opinionated architecture for scalable Angular apps
