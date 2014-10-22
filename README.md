@@ -5,7 +5,7 @@ Reference for development tasks/resources
 
 #Git
 
-###Undo all unstaged changes
+**Undo all unstaged changes**
 
 `git clean -fd`
 
@@ -13,22 +13,28 @@ Dry run: `git clean -nd`
 
 Also remove ignored files: `git clean -fdx`
 
-###Undo commits that have not been pushed yet
+**Undo commits that have not been pushed yet**
 
 `git reset HEAD~1`
 
 Also undo current changes: `git reset --hard HEAD~1`
 
-###Checkout a remote branch for an existing local repository
+**Checkout a remote branch for an existing local repository**
 
 ```
 git fetch
 git checkout <branch name>
 ```
 
+**Change a remote URL**
+
+```
+git remote set-url origin {new url}
+```
+
 #Node
 
-###List npm package versions without dependencies
+**List npm package versions without dependencies**
 
 ```
 npm list [-g] --depth=0
@@ -42,7 +48,7 @@ npm list [-g] --depth=0
 
 #OSX
 
-###Edit the hosts file
+**Edit the hosts file**
 
 ```
 sudo <editor> /private/etc/hosts
