@@ -7,17 +7,27 @@ Reference for development tasks/resources
 
 **Undo all unstaged changes**
 
-`git clean -fd`
+```
+$ git clean -fd
+```
 
-Dry run: `git clean -nd`
+Also remove ignored files: 
 
-Also remove ignored files: `git clean -fdx`
+```
+$ git clean -fdx
+```
 
 **Undo commits that have not been pushed yet**
 
-`git reset HEAD~1`
+```
+$ git reset HEAD~1
+```
 
-Also undo current changes: `git reset --hard HEAD~1`
+Also undo current changes: 
+
+```
+$ git reset --hard HEAD~1
+```
 
 **Checkout a remote branch for an existing local repository**
 
@@ -31,6 +41,11 @@ git checkout <branch name>
 ```
 git remote set-url origin {new url}
 ```
+
+**Reference links:**
+
+* [Dealing with Line Endings](https://help.github.com/articles/dealing-with-line-endings/)
+* [Destroy your entire commit history](http://stackoverflow.com/questions/9683279/make-the-current-commit-the-only-initial-commit-in-a-git-repository)
 
 #Node
 
