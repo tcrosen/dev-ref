@@ -1,7 +1,7 @@
-dev-ref
+Development Reference Manual
 =======
 
-Reference for development tasks/resources
+Quick reference for common development tasks/resources that I need from time to time.
 
 #Git
 
