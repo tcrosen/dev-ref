@@ -49,6 +49,13 @@ git remote set-url origin {new url}
 
 #Node
 
+**Stop using `sudo`**
+
+```
+$ sudo chown -R $USER /usr/local/bin
+$ sudo chown -R $USER /usr/local/lib/node_modules
+```
+
 **List npm package versions without dependencies**
 
 ```
