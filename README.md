@@ -42,6 +42,16 @@ git checkout <branch name>
 git remote set-url origin {new url}
 ```
 
+**Delete a Tag**
+
+```
+# local
+git tag -d {tag}
+
+# remote
+git push origin :refs/tags/{tag}
+```
+
 **Reference links:**
 
 * [Dealing with Line Endings](https://help.github.com/articles/dealing-with-line-endings/)
