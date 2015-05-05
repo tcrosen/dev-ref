@@ -8,6 +8,8 @@ Quick reference for common development tasks/resources that I need from time to 
   - [npm](#npm)
 * [Angular](#angular)
 * [OSX](#osx)
+* [Sublime Text 2]
+  - [Settings](sublime-settings.json)
 
 ##Git
 
@@ -68,7 +70,7 @@ git push origin :refs/tags/{tag}
 
 ### npm
 
-[Fixing npm Permissions](https://docs.npmjs.com/getting-started/fixing-npm-permissions)
+- [Fixing npm Permissions](https://docs.npmjs.com/getting-started/fixing-npm-permissions)
 
 **Stop using `sudo`**
 
@@ -97,4 +99,6 @@ npm list [-g] --depth=0
 sudo <editor> /private/etc/hosts
 ```
 
+##Sublime Text 2
 
+- [Settings](sublime-settings.json)
