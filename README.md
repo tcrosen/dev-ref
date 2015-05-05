@@ -8,7 +8,7 @@ Quick reference for common development tasks/resources that I need from time to 
   - [npm](#npm)
 * [Angular](#angular)
 * [OSX](#osx)
-* [Sublime Text 2](#sublime text 2)
+* [Sublime Text 2](#sublime-text-2)
   - [Settings](sublime-settings.json)
 
 ##Git
