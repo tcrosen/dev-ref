@@ -60,6 +60,17 @@ git tag -d {tag}
 git push origin :refs/tags/{tag}
 ```
 
+**Update Git version
+
+> I have XCode installed (and consequently it's bundled git); how do I get my system to use this version instead?
+
+> Xcode installs it's git to /usr/bin/git; recent versions of OS X (Yosemite and later) ship with stubs in /usr/bin, which take precedence over this git. To overcome, do the following:
+
+```sh
+sudo mv /usr/bin/git /usr/bin/git-system
+sudo ln -sf /usr/local/git/bin/git /usr/bin/git
+```
+
 **Reference links:**
 
 * [Dealing with Line Endings](https://help.github.com/articles/dealing-with-line-endings/)
