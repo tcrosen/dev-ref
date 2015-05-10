@@ -60,7 +60,7 @@ git tag -d {tag}
 git push origin :refs/tags/{tag}
 ```
 
-**Update Git version
+**Update Git version**
 
 > I have XCode installed (and consequently it's bundled git); how do I get my system to use this version instead?
 
