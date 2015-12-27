@@ -13,6 +13,18 @@ Quick reference for common development tasks/resources that I need from time to 
 
 ##Git
 
+**Use Atom as default editor**
+
+```sh
+$ git config --global core.editor "atom --wait"
+```
+
+**Squash commits into a single commit**
+
+```sh
+$ git rebase -i [--root]
+```
+
 **Undo all unstaged changes**
 
 ```
