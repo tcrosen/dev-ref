@@ -2,6 +2,6 @@
 
 * [Introduction](README.md)
 * [Git](git.md)
-   * [[Configuration]](configuration.md)
-   * [Commands]
+   * [Configuration](git.md/#configuration)
+   * [Commands](git.md/#commands.md)
 
