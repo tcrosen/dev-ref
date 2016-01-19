@@ -2,14 +2,6 @@
 
 Distributed source control.
 
-## Configuration
-
-**Set default editor**
-
-```sh
-$ git config --global core.editor "atom --wait"
-```
-
 ## Commands
 
 **Squash all commits into a single commit**
