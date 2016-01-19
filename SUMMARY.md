@@ -1,7 +1,7 @@
 # Summary
 
+* [Introduction](README.md)
 * [Git](git.md)
-  * [Configuration]
-  * [Commands]
-  * 
+   * [[Configuration]](configuration.md)
+   * [Commands]
 
