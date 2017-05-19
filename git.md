@@ -4,6 +4,12 @@ Distributed source control.
 
 ## Commands
 
+**Delete all local non-master branches**
+
+```sh
+$ git branch | grep -v "master" | xargs git branch -D 
+```
+
 **Squash all commits into a single commit**
 
 ```sh
