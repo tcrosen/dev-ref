@@ -12,7 +12,7 @@ Quick reference for common development tasks/resources that I need from time to 
   - [Settings](sublime-settings.json)
 
 
-##Node
+## Node
 
 
 ### npm
@@ -32,13 +32,13 @@ $ sudo chown -R $USER /usr/local/lib/node_modules
 npm list [-g] --depth=0
 ```
 
-##Angular
+## Angular
 
 - [ngBoilerPlate](https://github.com/ngbp/ngbp) - Opinionated architecture for scalable Angular apps
 - [Best Practices for App Structure](https://docs.google.com/document/d/1XXMvReO8-Awi1EZXAXS4PzDzdNvV6pGcuaF4Q9821Es/pub) *(Official)*
 - [Code style guide](https://google-styleguide.googlecode.com/svn/trunk/angularjs-google-style.html)  *(Official)*
 
-##OSX
+## OSX
 
 **Edit the hosts file**
 
@@ -46,6 +46,6 @@ npm list [-g] --depth=0
 sudo <editor> /private/etc/hosts
 ```
 
-##Sublime Text 2
+## Sublime Text 2
 
 - [Settings](sublime-settings.json)
